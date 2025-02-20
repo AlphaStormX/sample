@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+
+    
+   <div class="bg"></div> 
+    <div class="container">
+        <h2>Student Login</h2>
+        <form id="registrationForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="department">Your Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="year">Current Year:</label>
+            <select id="year" name="year" required>
+                <option value="FE">First Year</option>
+                <option value="SE">Second Year</option>
+                <option value="TE">Third Year</option>
+                <option value="BE">Final Year</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+        <a href="list.html" style="background: transparent;">View Registered User</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
